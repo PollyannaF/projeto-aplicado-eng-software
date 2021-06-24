@@ -14,7 +14,7 @@ module.exports = {
           allowNull: false,
         },
         cpf: {
-          type: Sequelize.INTEGER,
+          type: Sequelize.STRING,
           allowNull: false,
           unique: true,
         },
@@ -23,11 +23,11 @@ module.exports = {
           allowNull: false,
         },
         telefone: {
-          type: Sequelize.STRING,
+          type: Sequelize.INTEGER,
           allowNull: false,
         },
         endereco: {
-          type: Sequelize.INTEGER,
+          type: Sequelize.STRING,
           allowNull: false,
         },
         estado: {
