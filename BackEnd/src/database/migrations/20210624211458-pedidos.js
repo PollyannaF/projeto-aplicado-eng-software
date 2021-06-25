@@ -3,12 +3,11 @@
 module.exports = {
   up:(queryInterface, Sequelize) => {
      return queryInterface.createTable('pedidos', { 
-       codigo_pedido: {
-         type: Sequelize.INTEGER,
-         primarykey: true,
-         allowNull: false,
-         autoIncrement: true,
-        },
+      id_pedido: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        autoIncrement: true,
+       },
         cpf_cliente: {
           type: Sequelize.STRING,
           allowNull: false,

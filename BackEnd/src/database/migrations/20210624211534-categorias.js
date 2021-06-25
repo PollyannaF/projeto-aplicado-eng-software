@@ -2,13 +2,13 @@
 
 module.exports = {
   up:(queryInterface, Sequelize) => {
-     return queryInterface.createTable('categorias', { 
-       codigo_categoria: {
-         type: Sequelize.INTEGER,
-         primarykey: true,
-         allowNull: false,
-         autoIncrement: true,
-        },
+     return queryInterface.createTable('categorias', {
+      id: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        autoIncrement: true,
+        primarykey: true,
+       },
         nome_categoria: {
           type: Sequelize.STRING,
           allowNull: false,
