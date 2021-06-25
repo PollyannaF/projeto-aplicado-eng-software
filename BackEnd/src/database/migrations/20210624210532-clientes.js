@@ -23,7 +23,7 @@ module.exports = {
           allowNull: false,
         },
         telefone: {
-          type: Sequelize.INTEGER,
+          type: Sequelize.STRING,
           allowNull: false,
         },
         endereco: {

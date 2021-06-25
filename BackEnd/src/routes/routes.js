@@ -8,7 +8,7 @@ const routes = new Router();
 //Cliente Controler:
 
 
-routes.get('/cliente', ClienteController.index); //Buscar todos cliente especifico
+routes.get('/cliente/:cpf', ClienteController.index); //Buscar cliente especifico
 
 routes.post('/cliente', ClienteController.store); // Criar cliente
 
