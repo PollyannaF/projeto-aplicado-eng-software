@@ -7,6 +7,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         autoIncrement: true,
+        primarykey: true
        },
         cpf_cliente: {
           type: Sequelize.STRING,
